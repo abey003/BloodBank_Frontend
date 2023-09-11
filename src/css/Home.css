@@ -1,0 +1,51 @@
+.HomePage {
+    font-family : 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color : white;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; 
+    background-size: cover;
+    overflow : hidden;
+}
+
+.PromotionBox {
+    display : flex;
+    align-items : center;
+    justify-content : center;
+    animation : fadeIn 5s;
+}
+
+.PromotionImage {
+    max-width : 100%;
+    max-height : 100%;
+  
+}
+
+@keyframes fadeIn {
+    0% { opacity : 0; }
+    100% { opacity : 1; }
+}
+  
+.PromotionText {
+    font-size : 20px;
+    padding-left : 20px;
+}
+
+.BloodInfoBox {
+    animation : fadeIn 5s;
+    text-align : center;
+    font-size : 20px;
+}
+
+.Donation {
+    display : flex;
+    align-items : center;
+    justify-content : center;
+    
+}
+
+.BloodInfoBoxImage {
+    max-width : 40%;
+    max-height : 40%;
+}

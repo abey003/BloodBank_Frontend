@@ -1,0 +1,25 @@
+.Contact {
+    background : url("../images/contact.jpg"); 
+    -webkit-background-size : cover;
+    -moz-background-size : cover;
+    -o-background-size : cover;
+    background-size : cover; 
+    height : 100vh;
+    position : relative;
+    display : grid;
+    font-family : 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align : center;
+    justify-content : center;
+    animation : fadeIn 3s;
+}
+
+.ContactForm {
+    width : 25rem;
+    height : 20rem;
+    margin : auto;
+    box-shadow : 0 0 1rem 0 rgba(0, 0, 0, .2);
+    border-radius : 10px;
+    background-color : rgba(255, 255, 255, .15);
+    backdrop-filter : blur(3px);
+    animation : fadeIn 5s;
+}
