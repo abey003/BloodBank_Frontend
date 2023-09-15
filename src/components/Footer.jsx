@@ -8,8 +8,9 @@ const Footer = () => {
         textAlign: "center",
         margin: "5px",
     }}>
-        Blood Bank <br />
+        
         Copyright &copy; 2023 <br />
+        Blood Bank. <br />
         All rights reserved 
     </div>
   )
